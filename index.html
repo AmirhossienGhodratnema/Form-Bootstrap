@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/css/bootstrap-rtl.css" />
+    <link rel="stylesheet" href="style/css/vazir.css" />
+    <link rel="stylesheet" href="style/css/style.css" />
+    <title>Project 3</title>
+</head>
+
+<body>
+    <div class="container text-center mt-5 w-50">
+        <div class="">
+            <img class="my-3" src="https://static.roocket.ir/public/image/2018/1/21/1516505980bootstrap4-cover-1.jpg" style="width: 72px; height: 72px" alt="" />
+            <h3>فرم خرید</h3>
+            <p class="lead">
+                ما باور داریم که کاربران ایرانی لایق بهترین‌ها هستند، از این رو ما تمام تلاش خود را می‌کنیم تا بتوانیم فیلم‌ها و مقالات آموزشی بروز و کاربردی را در اختیارتان قرار دهیم تا با استفاده از آنها بتوانید جزء بهترین‌ها در صنعت طراحی و برنامه‌نویسی وب شوید. ما
+                ادعا نمی‌کنیم که بهترین هستیم ولی همیشه تمام تلاش خود را می‌کنیم بهترین عملکرد را به شما ارائه دهیم.
+            </p>
+        </div>
+    </div>
+
+    <!-- Full -->
+    <div class="container">
+        <div class="row">
+            <!-- Form -->
+            <div class="col-8">
+                <form action="" novalidate>
+
+                </form>
+                <form action="">
+                    <div class="row">
+                        <!-- Name -->
+                        <div class="form-group col">
+                            <label for="">نام</label>
+                            <input type="text" class="form-control" placeholder="نام" required>
+                            <div class="invalid-feedback">
+                                لطفا نام را وارد کنید
+                            </div>
+                            <div class="invalid-feedback">
+                                نام به درستی وارد شد
+                            </div>
+                        </div>
+
+                        <!-- Last Name -->
+                        <div class="form-group col">
+                            <label for="">نام خانوادگی</label>
+                            <input type="text" class="form-control" placeholder="نام خانوادگی" />
+                        </div>
+                    </div>
+                </form>
+
+                <!-- User Name -->
+                <div class="form-group">
+                    <label for="">نام کاربردی</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">@</div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="نام کاربری" />
+                    </div>
+                </div>
+
+                <!-- Emaill -->
+                <div class="form-group">
+                    <label for="">ایمیل انتخابی</label>
+                    <input type="text" class="form-control" placeholder="you@example.com" />
+                </div>
+
+                <!-- Addres -->
+                <div class="form-group">
+                    <label for="">آدرس</label>
+                    <input type="text" class="form-control" placeholder="مازندران بابل" />
+                </div>
+
+                <!-- Addres 2 -->
+                <div class="form-group">
+                    <label for="">آدرس <span class="text-muted">(انتخابی)</span></label>
+                    <input type="text" class="form-control" placeholder="تهران تهران" />
+                </div>
+
+                <div>
+                    <div class="row">
+
+                        <!-- Contsis -->
+                        <div class="col-5">
+                            <form action="" class="">
+                                <div class="form-row align-items-center">
+                                    <div class="col-auto my-1 w-100">
+                                        <label class="mr-sm-2" for="inlineFormCustomSelect">کشور</label>
+                                        <select class="custom-select mr-sm-2 " id="inlineFormCustomSelect">
+                                            <option selected>ایران</option>
+                                            <option value="1">آلمان</option>
+                                            <option value="2">اتریش</option>
+                                            <option value="3">سوییس</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Ostan -->
+                        <div class="col-4">
+
+                            <form action="" class="">
+                                <div class="form-row align-items-center">
+                                    <div class="col-auto my-1 w-100">
+                                        <label class="mr-sm-2" for="inlineFormCustomSelect">استان</label>
+                                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>تهران</option>
+                                        <option value="1">فارس</option>
+                                        <option value="2">اصفهان</option>
+                                        <option value="3">گیلان</option>
+                                    </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Name Ostan -->
+                        <div class="col-3">
+                            <form action="" class="">
+                                <div class="form-group my-1">
+                                    <label for="">نام شهر</label>
+                                    <input type="text" class="form-control" placeholder="" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="custom-checkbox d-flex justify-content-between">
+                    <div>
+                        <label class="form-check-label" for="defaultCheck1">
+                        یک دو سه 
+                      </label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+
+                    </div>
+                </div>
+
+                <div class="custom-checkbox  d-flex justify-content-between">
+                    <div>
+                        <label class="form-check-label" for="defaultCheck1">
+                        یک دو سه 
+                      </label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+
+                    </div>
+                </div>
+
+
+                <div>
+                    <h5>نوع پرداخت</h5>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" />
+                        <label class="custom-control-label" for="customRadio1">بانک ملت</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" />
+                        <label class="custom-control-label" for="customRadio2">زرین پال</label>
+                    </div>
+                </div> -->
+
+                <div class="form-group">
+                    <label for="">نام دارنده کارت</label>
+                    <input type="text" class="form-control" placeholder="" />
+                </div>
+
+                <div class="form-group">
+                    <label for="">شماره کارت</label>
+                    <input type="text" class="form-control" placeholder="" />
+                </div>
+
+                <div class="form-group">
+                    <label for="">اعتبار کارت</label>
+                    <input type="text" class="form-control" placeholder="" />
+                </div>
+
+                <div class="form-group">
+                    <label for="">CVV2</label>
+                    <input type="text" class="form-control" placeholder="" />
+                </div>
+
+                <div class="border-top my-4">
+                    <a href="" class="btn btn-info btn-block">ادامه و خربد</a>
+                </div>
+            </div>
+
+            <!-- Sabad  Kharid -->
+            <div class="col-4">
+                <!-- Header -->
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4>سبد خرید</h4>
+                    <span class="badge badge-pill badge-primary">4</span>
+                </div>
+
+                <!-- List-Group -->
+                <div>
+                    <!-- Item One -->
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0">عنوان محصول</p>
+                                <small class="text-muted mt-1">$12</small>
+                            </div>
+                            <small><a href="#" class="text-muted">توضیح مختصر</a> </small>
+                        </div>
+                    </div>
+
+                    <!-- Item Two -->
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0">عنوان محصول</p>
+                                <small class="text-muted mt-1">$12</small>
+                            </div>
+                            <small><a href="#" class="text-muted">توضیح مختصر</a> </small>
+                        </div>
+                    </div>
+
+                    <!-- Item Three -->
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0">عنوان محصول</p>
+                                <small class="text-muted mt-1">$12</small>
+                            </div>
+                            <small><a href="#" class="text-muted">توضیح مختصر</a> </small>
+                        </div>
+                    </div>
+
+                    <!-- Item Four -->
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0">عنوان محصول</p>
+                                <small class="text-muted mt-1">$12</small>
+                            </div>
+                            <small><a href="#" class="text-muted">توضیح مختصر</a> </small>
+                        </div>
+                    </div>
+                    <!-- End List Group Item-->
+
+                    <!-- Takhfif -->
+                    <form action="card">
+                        <div class="container p-2 border mt-2 rounded input-group">
+                            <input type="text" class="form-control" placeholder="کد تخفیف " />
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-dark"><a href="" class="text-white">اعمال</a></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <scrip src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+        <script>
+            (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();
+        </script>
+</body>
+
+</html>
